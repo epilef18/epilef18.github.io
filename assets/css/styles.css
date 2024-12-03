@@ -1,6 +1,9 @@
 body {
   font-family: "Arial", sans-serif;
 }
+h1 {
+  color: #333333;
+}
 
 .section {
   padding: 3rem 1.5rem;

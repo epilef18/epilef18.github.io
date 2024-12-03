@@ -20,7 +20,7 @@ async function fetchUserRepos() {
   try {
     // Endpoint para obtener todos los repositorios del usuario
     const response = await fetch(
-      `https://api.github.com/users/${epilef18}/repos`
+      `https://api.github.com/users/${githubUsername}/repos`
     );
     if (!response.ok) {
       throw new Error(
