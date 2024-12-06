@@ -1,8 +1,8 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", serif;
 }
 h1 {
-  color: #333333;
+  color: #222222;
 }
 
 .section {
@@ -15,6 +15,7 @@ h1 {
 
 /* Estilo base para las tarjetas */
 .card {
+  background-color: #b9bbb6;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Asegura que los elementos se distribuyan uniformemente */
@@ -43,4 +44,36 @@ h1 {
   height: auto;
   object-fit: cover;
   max-height: 150px; /* Ajusta la altura máxima para mantener proporción */
+}
+
+/* Roboto css classes*/
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
 }
