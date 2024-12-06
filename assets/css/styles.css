@@ -15,11 +15,11 @@ a {
 
 /* Estilo base para las tarjetas */
 .card {
-  background-color: #c1e081;
+  background-color: #b9bbb6;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Asegura que los elementos se distribuyan uniformemente */
-  height: 250px; /* Define una altura fija */
+  height: 400px; /* Define una altura fija */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega un sombreado elegante */
 }
 
