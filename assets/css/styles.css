@@ -15,7 +15,7 @@ a {
 
 /* Estilo base para las tarjetas */
 .card {
-  background-color: #646660;
+  background-color: #c1e081;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Asegura que los elementos se distribuyan uniformemente */
