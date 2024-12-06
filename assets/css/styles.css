@@ -1,10 +1,10 @@
 body {
   font-family: "Roboto", serif;
 }
-h1 {
-  color: #222222;
-}
 
+a {
+  color: white;
+}
 .section {
   padding: 3rem 1.5rem;
 }
@@ -15,7 +15,7 @@ h1 {
 
 /* Estilo base para las tarjetas */
 .card {
-  background-color: #b9bbb6;
+  background-color: #646660;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Asegura que los elementos se distribuyan uniformemente */
@@ -30,7 +30,7 @@ h1 {
   display: -webkit-box; /* Soporte para texto truncado en múltiples líneas */
   -webkit-line-clamp: 3; /* Limita a 3 líneas de texto */
   -webkit-box-orient: vertical;
-  height: 4.5em; /* Ajustar la altura al número de líneas */
+  height: 3em; /* Ajustar la altura al número de líneas */
 }
 
 /* Estilo para el botón en la parte inferior */
@@ -76,4 +76,9 @@ h1 {
   font-family: "Roboto", serif;
   font-weight: 900;
   font-style: normal;
+}
+
+/* estilos por id */
+#nombre {
+  color: #222222;
 }
